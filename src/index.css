@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Dana';
+    src: url(../public/fonts/DanaFaNum-Regular.woff);
+}
+@font-face {
+    font-family: 'Dana Bold';
+    src: url(../public/fonts/DanaFaNum-Bold.woff);
+}
+@font-face {
+    font-family: 'IRY';
+    src: url(../public/fonts/IRY.woff2);
+}
+@font-face {
+    font-family: 'Av';
+    src: url(../public/fonts/Av.woff2);
+}
+
+@theme {
+ --font-Dana: "Dana", sans-serif;
+ --font-DanaBold: "Dana Bold", sans-serif;
+ --font-IRY: "IRY", sans-serif;
+ --font-Av: "Av", sans-serif;
+}
+
+@layer base {
+body {
+    direction: rtl;
+    font-family: 'IRY';
+    font-size: 15px;
+}
+}
