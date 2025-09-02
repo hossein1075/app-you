@@ -23,11 +23,19 @@
  --font-IRY: "IRY", sans-serif;
  --font-Av: "Av", sans-serif;
 }
-
+@utility container {
+    @apply mx-auto px-3.75
+}
 @layer base {
 body {
     direction: rtl;
     font-family: 'IRY';
     font-size: 15px;
 }
+}
+
+.flexcenter {
+display: flex;
+justify-content: center;
+align-items: center;
 }
