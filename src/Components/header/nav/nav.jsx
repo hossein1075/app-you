@@ -3,14 +3,14 @@ import React from 'react'
 function Nav() {
     return (
         <>
-            <nav className='fixed top-0 right-0 left-0 py-5 px-3.75 flex items-center justify-between bg-amber-700'>
+            <nav className='fixed top-0 right-0 left-0 max-mg:hidden py-5 px-3.75 flex items-center justify-between bg-amber-700'>
                 <div className='w-43'>
                     <img src="./public/icons/logo.png" className='w-full' alt="" />
                 </div>
 
-                <ul className='flex text-white *:mx-3.75'>
+                <ul className='flex text-white max-lg:*:mx-2 *:mx-3.75'>
                     <li>
-                        <a href="#" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>خانه</a>
+                        <a href="#" className='inline-block border-b-2 border-transparent border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>خانه</a>
                     </li>
                     <li>
                         <a href="#" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>درباره ی ما</a>
@@ -34,7 +34,7 @@ function Nav() {
                         <a href="#" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>تماس با ما</a>
                     </li>
                 </ul>
-                <a href="#" className='inline-block text-white bg-white/30 tracking-[1.5px] py-2.5 px-10 rounded-[50px] font-bold text-sm'>ثبت نام</a>
+                <a href="#" className='inline-block text-white bg-white/30 tracking-[1.5px] py-2.5 px-10 rounded-[50px] font-bold text-sm hover:bg-white hover:text-highBlue'>ثبت نام</a>
             </nav>
         </>
     )
