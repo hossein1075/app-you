@@ -23,6 +23,8 @@
  --font-IRY: "IRY", sans-serif;
  --font-Av: "Av", sans-serif;
  --color-highBlue: #768ede;
+ --color-grandiant-100: #6ac6f0;
+ --color-grandiant-200: #482cbf;
  --breakpoint-mg: 965px;
 }
 @utility container {
