@@ -27,7 +27,7 @@ function NavMobile() {
                     </a>
                 </div>
             </nav>
-                <div className={`absolute left-0 right-0  text-white bg-gradient-to-br from-grandiant-200 to-grandiant-100  transition-transform  duration-700 ease-in-out ${open ?"translate-y-20" : "-translate-y-[530px]"}`}>
+                <div className={`absolute left-0 right-0  text-white bg-gradient-to-tr from-grandiant-200 to-grandiant-100  transition-transform  duration-700 ease-in-out ${open ?"translate-y-[-3rem]" : "-translate-y-[590px]"}`}>
                        <ul className='text-center text-white mx-2.5 *:w-full *:pb-3.75 border-t-1 border-white'>
                     <li className='bg-white text-highBlue mt-1.5'>
                         <a href="#" className='inline-block  transition-all  font-medium px-0.5 leading-5 py-2.5'>خانه</a>

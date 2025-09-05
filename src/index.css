@@ -26,6 +26,7 @@
  --color-grandiant-100: #6ac6f0;
  --color-grandiant-200: #482cbf;
  --breakpoint-mg: 965px;
+  --text-4-5xl: 40px; 
 }
 @utility container {
     @apply mx-auto px-3.75
