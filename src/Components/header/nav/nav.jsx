@@ -3,7 +3,7 @@ import React from 'react'
 function Nav() {
     return (
         <>
-            <nav className='fixed top-0 right-0 left-0 max-mg:hidden py-5 px-3.75 flex items-center justify-between bg-amber-700'>
+            <nav className='fixed top-0 right-0 left-0 max-mg:hidden py-5 px-3.75 flex items-center justify-between z-10'>
                 <div className='w-43'>
                     <img src="./public/icons/logo.png" className='w-full' alt="" />
                 </div>
