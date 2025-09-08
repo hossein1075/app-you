@@ -4,7 +4,7 @@ import FullTitle from '../fullTitle/fullTitle'
 function About() {
   return (
     <>
-    <section className='text-center'>
+    <section className='max-md:my-15 my-30'>
         <img src="/public/images/about-logo.png" alt="about logo" />
         <FullTitle/>
         <h3>

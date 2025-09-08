@@ -6,10 +6,10 @@ import { HiOutlineDownload } from "react-icons/hi";
 export default function Header() {
   return (
     <>
-      <header className='pt-20 bg-gradient-to-tr from-grandiant-200 to-grandiant-100 '>
+      <header className='pt-20 relative bg-home bg-cover bg-center max-md:min-h-128 min-h-168 bg-gradient-to-tr from-grandiant-200 to-grandiant-100 '>
         <Nav />
         <NavMobile />
-         <div className="absolute inset-0 bg-home max-md:min-h-[70vh] min-h-screen bg-cover bg-center"></div>
+       
   
   {/* لایه اورلی گرادینت */}
   <div className="absolute inset-0 bg-gradient-to-tr from-grandiant-200/80 to-grandiant-100/80"></div>
