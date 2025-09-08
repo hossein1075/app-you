@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 function Nav() {
+    const [scroll, setScroll] = useState(false)
+
+    useEffect(()=> {
+        const scrollHandler = ()=> {
+            setScroll(window.scrollY > 50)
+        }
+
+        window.addEventListener('scroll', scrollHandler)
+        return ()=> window.removeEventListener('scroll', scrollHandler)
+    }, [])
     return (
         <>
-            <nav className='fixed top-0 right-0 left-0 max-mg:hidden py-5 px-3.75 flex items-center justify-between z-10'>
+            <nav className={`fixed top-0 right-0 left-0 max-mg:hidden py-5 px-3.75 flex items-center justify-between z-10 ${scroll ? 'bg-gradient-to-r from-grandiant-200 to-grandiant-100': 'bg-inherit'}`}>
                 <div className='w-43'>
                     <img src="./public/icons/logo.png" className='w-full' alt="" />
                 </div>
