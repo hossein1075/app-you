@@ -6,8 +6,6 @@ function Main() {
     <>
     <main className=''>
     <About/>
-    <HalfTitle/>
-
     </main>
     </>
   )
