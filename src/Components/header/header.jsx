@@ -18,7 +18,7 @@ export default function Header() {
         <div className='container'>
           <div className='flex gap-5 max-lg:mt-10 mt-20 text-white'>
             <div className='w-101 h-142 max-lg:hidden z-10'>
-              <img src="./public/images/header-mobile.png" className='w-full' alt="app weather" />
+              <img src="./public/images/header-mobile.png" className='w-full z-10' alt="app weather" />
             </div>
 
             <div className='relative max-md:mt-5 mt-20'>

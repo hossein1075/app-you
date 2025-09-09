@@ -28,9 +28,10 @@
     --color-highBlue: #768ede;
     --color-grandiant-100: #6ac6f0;
     --color-grandiant-200: #482cbf;
-    --color-fullTitle: #8790af;
     --breakpoint-mg: 965px;
     --text-4-5xl: 40px;
+    --text-22: 22px; 
+    --text-25: 25px; 
     --container-halfFull: 50%;
 }
 
