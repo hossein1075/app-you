@@ -1,7 +1,7 @@
 import React from 'react'
 import HalfTitle from '../halfTitle/halfTitle'
 import Info from '../info'
-
+import ButtonInfo from '../buttonInfo/buttonInfo'
 function Progress() {
     return (
         <>
@@ -15,6 +15,7 @@ function Progress() {
                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
                             بیشتر بدانید
                         </p>
+                        <ButtonInfo/>
                     </div>
                     <div className='bg-progress'>
                         <div>
