@@ -59,3 +59,9 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.bg-progress {
+    background-image: url('/public/images/progress-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
