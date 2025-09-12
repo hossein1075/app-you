@@ -30,8 +30,8 @@
     --color-grandiant-200: #482cbf;
     --breakpoint-mg: 965px;
     --text-4-5xl: 40px;
-    --text-22: 22px; 
-    --text-25: 25px; 
+    --text-22: 22px;
+    --text-25: 25px;
     --container-halfFull: 50%;
 }
 
@@ -46,6 +46,8 @@
         font-size: 15px;
         line-height: 32px;
     }
+
+  
 }
 
 .flexcenter {
@@ -56,12 +58,6 @@
 
 .bg-home {
     background-image: url('/public/images/header-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.bg-progress {
-    background-image: url('/public/images/progress-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
