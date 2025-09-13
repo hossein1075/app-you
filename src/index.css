@@ -62,3 +62,9 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.bg-video {
+     background-image: url('/public/images/video-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
