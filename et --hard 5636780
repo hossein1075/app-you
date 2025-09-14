@@ -1,0 +1,23 @@
+[33m1b9de37[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m HEAD@{0}: commit: remove big video file to reduce repo size
+[33m5636780[m HEAD@{1}: reset: moving to 5636780
+[33m5636780[m HEAD@{2}: reset: moving to 5636780
+[33m87b4dae[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{3}: reset: moving to HEAD~1
+[33m5636780[m HEAD@{4}: commit: complete part video in section
+[33m87b4dae[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{5}: commit: add css section Video
+[33m77e7cea[m HEAD@{6}: commit: add html section video
+[33m32d0805[m HEAD@{7}: commit: complete section progress
+[33m4684b0e[m HEAD@{8}: commit: add css section progress part 1
+[33m7c4274c[m HEAD@{9}: commit: add component btn more info sections
+[33ma61f2fd[m HEAD@{10}: commit: add html section progress
+[33m8b0dfe2[m HEAD@{11}: commit: add component jsx halfTitle sections
+[33m08fac19[m HEAD@{12}: commit: complete section about
+[33m1e42077[m HEAD@{13}: commit: create changine background nav & navMobile after scrollY
+[33m2af6f05[m HEAD@{14}: commit: add component jsx fullTitle sections
+[33meb29507[m HEAD@{15}: commit: add HTML section 1
+[33mf02c4c7[m HEAD@{16}: commit: complete section header
+[33m3d9e64d[m HEAD@{17}: commit: add basic content header
+[33m8b11b45[m HEAD@{18}: commit: add menu and event on icon bar3 in navMobile
+[33m1203328[m HEAD@{19}: commit: add icon & logo navMobile
+[33m734f19d[m HEAD@{20}: commit: end responsive nav desktop
+[33m5d173f8[m HEAD@{21}: commit: build base nav header
+[33m6c0bb60[m HEAD@{22}: commit (initial): creat project

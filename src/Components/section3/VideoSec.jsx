@@ -10,10 +10,10 @@ function VideoSec() {
         responsive: true,
         fluid: true,
         autoplay: false,
-        poster: "/images/thumbnail.jpg",
+        poster: "/images/video-image.jpg",
         sources: [
             {
-                src: "/videos/sample.mp4",
+                src: "/video/film.mp4",
                 type: "video/mp4",
             },
         ],
@@ -21,16 +21,15 @@ function VideoSec() {
     return (
         <section>
             <div className="container">
-
-                <div className='flex'>
+                <div className='flex gap-20'>
                     {/* video */}
-                    <div className='bg-video'>
-                        <div>
-                            <VideoJsSec option={videoOptions}/>
+                    <div className='flex-1 w-full bg-video flexcenter'>
+                        <div className='w-138'>
+                            <VideoJsSec options={videoOptions}/>
                         </div>
                     </div>
                     {/* content */}
-                    <div className='max-w-138 py-15'>
+                    <div className='flex-1 max-w-138 py-15'>
                         <HalfTitle text={Info[2].text} className='mb-3.75' />
                         <h3 className='text-neutral-700 max-md:text-[22px] text-[25px] pt-2.5 pb-3.75'>برنامه گرت برای همیشه</h3>
                         <p className='max-md:text-sm text-slate-400 pt-5 pb-12.5 max-w-138'>
