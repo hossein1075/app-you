@@ -5,9 +5,9 @@ import ButtonInfo from '../buttonInfo/buttonInfo'
 function Progress() {
     return (
         <>
-            <section className='bg-indigo-50 mt-22.5 mb-55'>
+            <section className='bg-indigo-50 mt-22.5 '>
                 <div className="container">
-                    <div className='flex justify-between max-xl:block'>
+                    <div className='flex justify-between'>
                         <div className='max-w-138 max-lg:py-15 py-30'>
                             <HalfTitle text={Info[1].text} className='mb-3.75'/>
                             <h3 className='text-neutral-700 max-md:text-[22px] text-[25px] pt-2.5 pb-3.75'>برنامه گرت برای همیشه</h3>

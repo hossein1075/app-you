@@ -62,11 +62,18 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .bg-video {
      background-image: url('/public/images/video-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+/* موبایل تا XL خاموشش کن */
+@media (max-width: 1279px) {
+  .bg-video {
+    background: none !important;
+  }
 }
 .video-js {
   width: 100% !important;  
