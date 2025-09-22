@@ -1,8 +1,8 @@
 import React from 'react'
-import HalfTitle from '../main/halfTitle/halfTitle'
-import ButtonInfo from '../main/buttonInfo/buttonInfo'
-import Info from '../main/info'
-import VideoJsSec from '../VideoJs'
+import HalfTitle from '../halfTitle/halfTitle'
+import ButtonInfo from '../buttonInfo/buttonInfo'
+import Info from '../info'
+import VideoJsSec from '../../VideoJs'
 function VideoSec() {
 
     let videoOptions = {
