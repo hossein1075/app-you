@@ -1,0 +1,8 @@
+.title_sec {
+    color: white !important;
+}
+@media (min-width: 768px) {
+  .title-thd {
+    max-width: 260px;
+  }
+}
