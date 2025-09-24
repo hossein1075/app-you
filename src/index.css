@@ -90,3 +90,16 @@
 .video-js .vjs-tech {
   object-fit: contain; 
 }
+.bg-feature {
+    background-image: url('/images/feature-bg.png');
+    background-repeat: no-repeat;
+    background-size: auto 94%;
+    background-position: bottom -120px center;
+    
+}
+@media (max-width: 1279px) {
+  .bg-feature {
+    background-image: none;
+  }
+}
+
