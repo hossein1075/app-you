@@ -1,10 +1,11 @@
 import React from 'react'
 import './FullTitle.css'
 function FullTitle(props) {
+  const color = props.color
   return (
     <>
     
-    <h5 className='title_sec relative inline-block tracking-[1.5px] font-semibold text-sm/[1.4rem] text-slate-400 mb-3.75'>
+    <h5 className={`title_sec relative inline-block tracking-[1.5px] font-semibold text-sm/[1.4rem] ${color ? color : 'text-slate-400'} mb-3.75`}>
       {props.text}
     </h5>
   
