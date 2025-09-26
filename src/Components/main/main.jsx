@@ -4,7 +4,7 @@ import Progress from './section2/progress'
 import VideoSec from './section3/VideoSec'
 import Feature from './section4/feature'
 import Testimonial from './section5/testimonial'
-
+import Gallery from './section6/gallery'
 function Main() {
   return (
     <>
@@ -14,6 +14,7 @@ function Main() {
     <VideoSec/>
     <Feature/>
     <Testimonial/>
+    <Gallery/>
     </main>
     </>
   )

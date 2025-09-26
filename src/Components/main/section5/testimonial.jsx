@@ -14,7 +14,7 @@ function Testimonial() {
     <>
       <section>
         <div className="container mx-auto text-center">
-          <FullTitle text={Info[3].text} />
+          <FullTitle text={Info[4].text} />
           <h3 className='mt-2.5 mb-18.75 text-[25px] max-md:text-22'>ویژگی های پر قدرت مثل همیشه</h3>
 
           <div className=' flex items-center mt-10'>
@@ -27,7 +27,7 @@ function Testimonial() {
             </div>
 
             <Swiper
-              modules={[Navigation,]}
+              modules={[Navigation, Autoplay]}
 
               slidesPerView={3}
               loop={true}
