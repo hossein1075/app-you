@@ -2,6 +2,7 @@ import React from 'react'
 
 function Boxicon(props) {
   let color = props.color
+  let size = props.size
   return (
     <>
     <div className='flex gap-4 mb-15'>
@@ -10,7 +11,7 @@ function Boxicon(props) {
         </div>
         <div className={`${color ? color : 'text-white'}`}>
             <h4 className='mb-2.5'>{props.title}</h4>
-            <p className='title-thd'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+            <p className={`${size ? size : 'max-w-65'}`}>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
         </div>
     </div>
     </>

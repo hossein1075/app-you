@@ -2,7 +2,6 @@ import React from 'react'
 import FullTitle from '../fullTitle/fullTitle'
 import Info from '../info'
 import Boxicon from '../boxIcon/Boxicon'
-import './feature.css'
 import Icons from '../iconList'
 function Feature() {
   return (
