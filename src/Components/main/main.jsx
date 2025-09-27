@@ -5,6 +5,7 @@ import VideoSec from './section3/VideoSec'
 import Feature from './section4/feature'
 import Testimonial from './section5/testimonial'
 import Gallery from './section6/gallery'
+import Use from './section7/use'
 function Main() {
   return (
     <>
@@ -15,6 +16,7 @@ function Main() {
     <Feature/>
     <Testimonial/>
     <Gallery/>
+    <Use/>
     </main>
     </>
   )

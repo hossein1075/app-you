@@ -12,7 +12,7 @@ function Testimonial() {
   const swiperRef = useRef(null);
   return (
     <>
-      <section>
+      <section className='max-md:py-15 py-18'>
         <div className="container mx-auto text-center">
           <FullTitle text={Info[4].text} />
           <h3 className='mt-2.5 mb-18.75 text-[25px] max-md:text-22'>ویژگی های پر قدرت مثل همیشه</h3>
