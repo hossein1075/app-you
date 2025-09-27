@@ -1,106 +1,114 @@
 @import "tailwindcss";
 
 @font-face {
-    font-family: 'Dana';
-    src: url(../public/fonts/DanaFaNum-Regular.woff);
+  font-family: 'Dana';
+  src: url(../public/fonts/DanaFaNum-Regular.woff);
 }
 
 @font-face {
-    font-family: 'Dana Bold';
-    src: url(../public/fonts/DanaFaNum-Bold.woff);
+  font-family: 'Dana Bold';
+  src: url(../public/fonts/DanaFaNum-Bold.woff);
 }
 
 @font-face {
-    font-family: 'IRY';
-    src: url(../public/fonts/IRY.woff2);
+  font-family: 'IRY';
+  src: url(../public/fonts/IRY.woff2);
 }
 
 @font-face {
-    font-family: 'Av';
-    src: url(../public/fonts/Av.woff2);
+  font-family: 'Av';
+  src: url(../public/fonts/Av.woff2);
 }
 
 @theme {
-    --font-Dana: "Dana", sans-serif;
-    --font-DanaBold: "Dana Bold", sans-serif;
-    --font-IRY: "IRY", sans-serif;
-    --font-Av: "Av", sans-serif;
-    --color-highBlue: #768ede;
-    --color-grandiant-100: #6ac6f0;
-    --color-grandiant-200: #482cbf;
-    --breakpoint-mg: 965px;
-    --text-4-5xl: 40px;
-    --text-22: 22px;
-    --text-25: 25px;
-    --container-halfFull: 50%;
+  --font-Dana: "Dana", sans-serif;
+  --font-DanaBold: "Dana Bold", sans-serif;
+  --font-IRY: "IRY", sans-serif;
+  --font-Av: "Av", sans-serif;
+  --color-highBlue: #768ede;
+  --color-grandiant-100: #6ac6f0;
+  --color-grandiant-200: #482cbf;
+  --breakpoint-mg: 965px;
+  --text-4-5xl: 40px;
+  --text-22: 22px;
+  --text-25: 25px;
+  --container-halfFull: 50%;
 }
 
 @utility container {
-    @apply mx-auto px-3.75
+  @apply mx-auto px-3.75
 }
 
 @layer base {
-    body {
-        direction: rtl;
-        font-family: 'IRY';
-        font-size: 15px;
-        line-height: 32px;
-    }
+  body {
+    direction: rtl;
+    font-family: 'IRY';
+    font-size: 15px;
+    line-height: 32px;
+  }
 
-  
+
 }
 
 .flexcenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bg-home {
-    background-image: url('/public/images/header-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url('/public/images/header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .bg-video {
-     background-image: url('/public/images/video-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url('/public/images/video-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 /* موبایل تا XL خاموشش کن */
 @media (max-width: 1279px) {
   .bg-video {
     background: none !important;
   }
 }
+
 .video-js {
-  width: 100% !important;  
-  height: auto !important;   
+  width: 100% !important;
+  height: auto !important;
 }
 
 .video-js .vjs-poster {
-  object-fit: cover;         
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
 
 .video-js .vjs-tech {
-  object-fit: contain; 
+  object-fit: contain;
 }
+
 .bg-feature {
-    background-image: url('/images/feature-bg.png');
-    background-repeat: no-repeat;
-    background-size: auto 94%;
-    background-position: bottom -120px center;
-    
+  background-image: url('/images/feature-bg.png');
+  background-repeat: no-repeat;
+  background-size: auto 94%;
+  background-position: bottom -120px center;
+
 }
+
 @media (max-width: 1279px) {
   .bg-feature {
     background-image: none;
   }
 }
 
-
+.bg-gallery {
+  background-image: url('/images/mobile-screen.png');
+  background-repeat: no-repeat;
+  
+}
