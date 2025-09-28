@@ -1,6 +1,6 @@
 let InfoBtnApp = [
-    {id:1, img: '/icons/apple-icon.png'},
-    {id:2, img: '/icons/play-store-icon.png'}
+    {id:1, icon: '/icons/apple-icon.png', title: 'فروشگاه اپل'},
+    {id:2, icon: '/icons/play-store-icon.png', title: ' پلی استور'}
 ]
 
 export default InfoBtnApp

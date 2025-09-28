@@ -112,3 +112,9 @@
   background-repeat: no-repeat;
   
 }
+.bg-download {
+  background-image: url('/images/download-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
