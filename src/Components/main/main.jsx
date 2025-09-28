@@ -7,6 +7,7 @@ import Testimonial from './section5/testimonial'
 import Gallery from './section6/gallery'
 import Use from './section7/use'
 import Download from './section8/download'
+
 function Main() {
   return (
     <>
@@ -19,7 +20,7 @@ function Main() {
     <Gallery/>
     <Use/>
     <Download/>
-    
+   
     </main>
     </>
   )

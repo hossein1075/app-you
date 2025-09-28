@@ -14,7 +14,7 @@ function Download() {
                 <div className=''>
                     <h3 className='mb-8.25 leading-[1.4rem] max-mg:text-2xl text-3xl'>برنامه را دانلود کنید</h3>
                     <p className='max-mg:mb-13 mb-17 max-w-138 max-mg:max-w-full'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
-                    <div className='flex gap-x-2.5'>
+                    <div className='flex gap-2.5 flex-wrap'>
                         <BtnApp icon={InfoBtnApp[0].icon} title={InfoBtnApp[0].title}/>
                         <BtnApp icon={InfoBtnApp[1].icon} title={InfoBtnApp[1].title}/>
                     </div>
