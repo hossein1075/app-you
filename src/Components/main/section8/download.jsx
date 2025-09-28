@@ -1,5 +1,5 @@
 import React from 'react'
-
+import BtnApp from '../btnApp/BtnApp'
 function Download() {
   return (
     <>
@@ -12,7 +12,10 @@ function Download() {
                 <div>
                     <h3>برنامه را دانلود کنید</h3>
                     <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
-                    
+                    <div>
+                        <BtnApp/>
+                        <BtnApp/>
+                    </div>
                 </div>
             </div>
         </div>

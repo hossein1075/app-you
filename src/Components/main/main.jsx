@@ -7,7 +7,6 @@ import Testimonial from './section5/testimonial'
 import Gallery from './section6/gallery'
 import Use from './section7/use'
 import Download from './section8/download'
-import BtnApp from './btnApp/BtnApp'
 function Main() {
   return (
     <>
@@ -19,8 +18,8 @@ function Main() {
     <Testimonial/>
     <Gallery/>
     <Use/>
-    {/* <Download/> */}
-    <BtnApp/>
+    <Download/>
+    
     </main>
     </>
   )
