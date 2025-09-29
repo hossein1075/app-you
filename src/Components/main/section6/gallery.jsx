@@ -14,7 +14,7 @@ function Gallery() {
         <>
             <section className='text-white bg-gradient-to-tr from-grandiant-200 to-grandiant-100 max-md:py-15 py-30'>
                 <div className="container">
-                    <div className='grid max-md:grid-cols-1 grid-cols-2 gap-x-15'>
+                    <div className='grid max-md:grid-cols-1 grid-cols-2 gap-x-10'>
                         <div className='w-full max-md:max-w-100 mx-auto relative'>
                             <Swiper
                                 modules={[Navigation, Autoplay, Thumbs]}
@@ -66,7 +66,7 @@ function Gallery() {
                             </Swiper>
 
                         </div>
-                        <div className='w-full md:w-[360px] mt-6 md:mt-0'>
+                        <div className='max-mg:w-full  max-w-71 max-md:mt-6 mt-0'>
                             <HalfTitle text={Info[5].text} className='mb-3.75' color={'white'} />
                             <h3 className=' max-md:text-[22px] text-[25px] pt-2.5 pb-3.75'>اسکرین شات 01</h3>
                             <p className='max-md:text-sm pt-5 pb-12.5 max-w-114 max-xl:max-w-full'>
