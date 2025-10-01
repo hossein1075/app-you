@@ -106,9 +106,12 @@
   }
 }
 
-.bg-gallery {
-  background-image: url('/images/mobile-screen.png');
-  background-repeat: no-repeat;
+.bg-subscribe {
+background-image: url('/images/subscribe-bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;
+background-position: center center;
   
 }
 .bg-download {
