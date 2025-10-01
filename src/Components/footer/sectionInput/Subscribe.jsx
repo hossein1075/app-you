@@ -4,7 +4,7 @@ function Subscribe() {
   return (
     <>
       <section className='max-md:py-15 py-30 bg-subscribe'>
-        <div className="container flex justify-center">
+        <div className="flex justify-center">
           <div className='max-w-187 w-full bg-white max-sm:p-3 p-15 rounded-[5px] text-center'>
             <h3 className='text-blue-500 max-sm:text-lg max-md:text-[22px] text-[25px] leading-[1.4rem] mb-8.75'>برای ویژگی های بیشتر در خبرنامه ما عضو شوید</h3>
             <form action="#" className='max-md:flex max-md:flex-col items-center'>

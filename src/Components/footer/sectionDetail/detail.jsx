@@ -7,7 +7,7 @@ function Detail() {
     return (
         <>
             <section className='max-md:py-15 py-30'>
-                <div className="container">
+             
                     <div className='text-center'>
                         <FullTitle text={Info[9].text} />
                         <h3 className='mt-2.5 mb-18.75 text-[25px] max-md:text-22'>برنامه عالی قیمت گذاری</h3>
@@ -22,7 +22,7 @@ function Detail() {
                             />
                         ))}
                     </div>
-                </div>
+                
             </section>
         </>
     )
