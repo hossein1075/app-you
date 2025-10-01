@@ -1,11 +1,11 @@
 import React from 'react'
 import Subscribe from './sectionInput/Subscribe'
-import FooterBox from './footerBox/FooterBox'
+import Detail from './sectionDetail/detail'
 function Footer() {
   return (
     <>
     <Subscribe/>
-    <FooterBox/>
+    <Detail/>
     </>
   )
 }
