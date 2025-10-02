@@ -24,7 +24,7 @@ function NavMobile() {
     }, [])
     return (
         <>
-            <nav className={`fixed z-50 top-0 right-0 left-0 hidden max-mg:flex py-5 px-3.75 items-center justify-between ${scrolled ? 'bg-gradient-to-r from-grandiant-200 to-grandiant-100' : 'bg-gradient-to-r from-grandiant-200/80 to-grandiant-100/80' }`}>
+            <nav className={`fixed z-50 top-0 right-0 left-0 hidden max-mg:flex py-5 px-3.75 items-center justify-between ${scrolled ? 'bg-gradient-to-r from-grandiant-200 to-grandiant-100' : 'bg-gradient-to-r from-grandiant-200/90 to-grandiant-100/90' }`}>
                 <div className='w-43'>
                     <img src="./public/icons/logo.png" className='w-full' alt="Logo" />
                 </div>

@@ -1,0 +1,12 @@
+
+.blog_link::before {
+position: absolute;
+width: 1px;
+height: 14px;
+content: '';
+background: #ccc;
+top: 8px;
+right: -15px;
+bottom: 0;
+transform: rotate(22deg);
+}

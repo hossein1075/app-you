@@ -6,6 +6,7 @@ import Main from './Components/main/main'
 import Footer from './Components/footer/footer'
 import SiteHeader from './Components/blog/siteHeader'
 import NavHead from './Components/header/navHead'
+import Article from './Components/blog/articleSite/article'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,6 +17,7 @@ function App() {
     {/* <Main/> */}
     {/* <Footer/> */}
     <SiteHeader/>
+    <Article/>
     </>
   )
 }
