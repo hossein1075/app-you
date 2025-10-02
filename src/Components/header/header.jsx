@@ -7,9 +7,7 @@ export default function Header() {
   return (
     <>
       <header className='pt-10 mb-25 relative bg-home bg-cover bg-center max-md:min-h-128 min-h-168 bg-gradient-to-tr from-grandiant-200 to-grandiant-100 '>
-        <Nav />
-        <NavMobile />
-       
+        
   
   {/* لایه اورلی گرادینت */}
   <div className="absolute inset-0 bg-gradient-to-tr from-grandiant-200/80 to-grandiant-100/80"></div>
