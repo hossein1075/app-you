@@ -1,25 +1,15 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import Header from './Components/header/header'
-import Main from './Components/main/main'
-import Footer from './Components/footer/footer'
-import SiteHeader from './Components/blog/siteHeader'
-import NavHead from './Components/header/navHead'
-import Article from './Components/blog/articleSite/article'
-import PaginationSec from './Components/blog/paginationSec/PaginationSec'
+import { useRoutes } from 'react-router-dom'
+import router from './routes'
 function App() {
   const [count, setCount] = useState(0)
+  const element = useRoutes(router)
 
   return (
     <>
-    <NavHead/>
-    {/* <Header/> */}
-    {/* <Main/> */}
-    {/* <Footer/> */}
-    <SiteHeader/>
-    <Article/>
-    <PaginationSec/>
+    {element}
     </>
   )
 }

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import { Link } from 'react-router-dom';
 function Nav() {
     const [scroll, setScroll] = useState(false)
 
@@ -20,28 +20,28 @@ function Nav() {
 
                 <ul className='flex text-white max-lg:*:mx-2 *:mx-3.75'>
                     <li>
-                        <a href="#" className='inline-block border-b-2 border-transparent border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>خانه</a>
+                        <Link to={'/'} className='inline-block border-b-2 border-transparent border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>خانه</Link>
                     </li>
                     <li>
-                        <a href="#" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>درباره ی ما</a>
+                        <a href="#about" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>درباره ی ما</a>
                     </li>
                     <li>
-                        <a href="#" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>ویژگی ها</a>
+                        <a href="#feature" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>ویژگی ها</a>
                     </li>
                     <li>
-                        <a href="#" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>گالری</a>
+                        <a href="#gallery" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>گالری</a>
                     </li>
                     <li>
-                        <a href="#" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>قیمت</a>
+                        <a href="#price" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>قیمت</a>
                     </li>
                     <li>
-                        <a href="#" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>سوالات پر تکرار</a>
+                        <a href="#questions" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>سوالات پر تکرار</a>
                     </li>
                     <li>
-                        <a href="#" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>وبلاگ</a>
+                        <Link to={"/Blog"} className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>وبلاگ</Link>
                     </li>
                     <li>
-                        <a href="#" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>تماس با ما</a>
+                        <a href="#call" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>تماس با ما</a>
                     </li>
                 </ul>
                 <a href="#" className='inline-block text-white bg-white/30 tracking-[1.5px] py-2.5 px-10 rounded-[50px] font-bold text-sm hover:bg-white hover:text-highBlue'>ثبت نام</a>

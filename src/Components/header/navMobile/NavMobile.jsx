@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { FaBars } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 function NavMobile() {
     const [open, setOpen] = useState(false)
@@ -38,7 +39,7 @@ function NavMobile() {
             <div className={`fixed top-20 left-0 right-0 z-40 overflow-hidden bg-gradient-to-tr from-grandiant-200 to-grandiant-100 transition-[max-height] duration-700 ease-in-out ${open ? "max-h-screen" : "max-h-0"}`}>
                 <ul className='text-center text-white mx-2.5 *:w-full *:pb-3.75 border-t-1 border-white'>
                     <li className='bg-white text-highBlue mt-1.5'>
-                        <a href="#" className='inline-block  transition-all  font-medium px-0.5 leading-5 py-2.5'>خانه</a>
+                        <Link to={'/'} className='inline-block  transition-all  font-medium px-0.5 leading-5 py-2.5'>خانه</Link>
                     </li>
                     <li className='hover:bg-white hover:text-highBlue'>
                         <a href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>درباره ی ما</a>
@@ -56,7 +57,7 @@ function NavMobile() {
                         <a href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>سوالات پر تکرار</a>
                     </li>
                     <li className='hover:bg-white hover:text-highBlue'>
-                        <a href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>وبلاگ</a>
+                        <Link to='/Blog' className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>وبلاگ</Link>
                     </li>
                     <li className='hover:bg-white hover:text-highBlue mb-3.5'>
                         <a href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>تماس با ما</a>

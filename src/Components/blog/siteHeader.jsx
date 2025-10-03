@@ -1,5 +1,6 @@
 import React from 'react'
 import './SiteHeader.css'
+import { Link } from 'react-router-dom'
 function SiteHeader() {
   return (
     <>
@@ -9,7 +10,7 @@ function SiteHeader() {
                 <h1 className='font-Av max-md:text-4-5xl text-6xl mb-3.75 leading-[1.4rem]'>آخرین وبلاگ</h1>
                 <ul className='flex mt-2.5 mb-5 gap-7'>
                     <li>
-                        <a href="#">خانه</a>
+                        <Link to={'/'}>خانه</Link>
                     </li>
                     <li>
                         <a href="#" className='blog_link relative'>وبلاگ</a>
