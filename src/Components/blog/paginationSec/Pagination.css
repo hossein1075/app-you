@@ -1,0 +1,4 @@
+.active {
+    background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+    color: white;
+}
