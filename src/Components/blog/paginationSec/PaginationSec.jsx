@@ -40,7 +40,8 @@ function PaginationSec() {
                         ))}
                     </div>
 
-                    <nav className='text-center mt-20 p-5 shadow-[0_0_15px_0_rgba(0,0,0,0.1)] flex items-center gap-3'>
+                    <div className='flexcenter'>
+                        <nav className='text-center mt-5 p-5 shadow-[0_0_15px_0_rgba(0,0,0,0.1)] flex items-center gap-3'>
 
                         <button href="#" disabled={currnetPage === 1} className={`size-10 flexcenter rounded-[50%] inline-block hover:text-indigo-700 hover:bg-indigo-50`} onClick={()=> changePage(currnetPage - 1)}>
                             <span className='lnr lnr-chevron-right'></span>
@@ -54,6 +55,7 @@ function PaginationSec() {
                             <span className='lnr lnr-chevron-left'></span>
                         </button>
                     </nav>
+                    </div>
                 </div>
             </section>
         </>
