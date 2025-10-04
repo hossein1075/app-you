@@ -10,15 +10,15 @@ function Use() {
             <section className='max-md:py-15 py-30'>
                 <div className='container'>
                     <div className='max-lg:flex-col flex justify-center max-lg:gap-x-0 max-lg:gap-y-20 gap-x-20'>
-                        <div className='max-w-138'>
+                        <div data-aos="fade-up" className='max-w-138'>
                             <HalfTitle text={Info[6].text} className='mb-3.75' />
-                            <h3 className='text-neutral-700 max-md:text-[22px] text-[25px] pt-2.5 pb-3.75'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</h3>
-                            <p className='max-md:text-sm text-slate-400 pt-5 pb-12.5 max-w-114 max-xl:max-w-full'>
+                            <h3 data-aos="fade-up" className='text-neutral-700 max-md:text-[22px] text-[25px] pt-2.5 pb-3.75'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</h3>
+                            <p data-aos="fade-up" className='max-md:text-sm text-slate-400 pt-5 pb-12.5 max-w-114 max-xl:max-w-full'>
                                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
                             </p>
                             <ButtonInfo />
                         </div>
-                        <div>
+                        <div data-aos="fade-up">
                             <Boxicon icon={Icons[3].icon} title={Icons[3].title} color = { 'text-slate-400'} size={'max-w-89'}/>
                             <Boxicon icon={Icons[4].icon} title={Icons[4].title} color = { 'text-slate-400'} size={'max-w-89'}/>
                             <Boxicon icon={Icons[5].icon} title={Icons[5].title} color = { 'text-slate-400'} size={'max-w-89'}/>

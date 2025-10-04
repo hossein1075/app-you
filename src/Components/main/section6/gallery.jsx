@@ -66,10 +66,10 @@ function Gallery() {
                             </Swiper>
 
                         </div>
-                        <div className='max-mg:w-full  max-w-71 max-md:mt-6 mt-0'>
+                        <div data-aos="fade-up" className='max-mg:w-full  max-w-71 max-md:mt-6 mt-0'>
                             <HalfTitle text={Info[5].text} className='mb-3.75' color={'white'} />
-                            <h3 className=' max-md:text-[22px] text-[25px] pt-2.5 pb-3.75'>اسکرین شات 01</h3>
-                            <p className='max-md:text-sm pt-5 pb-12.5 max-w-114 max-xl:max-w-full'>
+                            <h3 data-aos="fade-up" className=' max-md:text-[22px] text-[25px] pt-2.5 pb-3.75'>اسکرین شات 01</h3>
+                            <p data-aos="fade-up" className='max-md:text-sm pt-5 pb-12.5 max-w-114 max-xl:max-w-full'>
                                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
                             </p>
                             <ButtonInfo />
