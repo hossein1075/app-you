@@ -6,7 +6,7 @@ import Icons from '../iconList'
 function Feature() {
   return (
     <>
-      <section className='text-white bg-blue-500 pt-20 mb-35.5 max-md:my-0 bg-feature'>
+      <section id='feature' className='text-white bg-blue-500 pt-20 mb-35.5 max-md:my-0 bg-feature'>
         <div className="container">
           <div className='mx-auto text-center'>
             <FullTitle text={Info[3].text} color={'white'}/>

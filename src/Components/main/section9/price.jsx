@@ -6,7 +6,7 @@ import InfoBox from '../boxProduct/InfoBoxProduct'
 function Price() {
   return (
     <>
-    <section className='max-md:py-15 py-30'>
+    <section id='price' className='max-md:py-15 py-30'>
       <div className="container">
         <div className='text-center max-xl:px-4 px-10'>
          <FullTitle text={Info[7].text} />

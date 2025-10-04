@@ -6,7 +6,7 @@ import Info from '../../main/info'
 function Detail() {
     return (
         <>
-            <section className='max-md:py-15 py-30'>
+            <section id='contact' className='max-md:py-15 py-30'>
                     <div className='text-center'>
                         <FullTitle text={Info[9].text} />
                         <h3 className='mt-2.5 mb-18.75 text-[25px] max-md:text-22'>ما را با جزئیات زیر پیدا کنید</h3>

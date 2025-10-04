@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { FaBars } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function NavMobile() {
     const [open, setOpen] = useState(false)
@@ -42,25 +43,25 @@ function NavMobile() {
                         <Link to={'/'} className='inline-block  transition-all  font-medium px-0.5 leading-5 py-2.5'>خانه</Link>
                     </li>
                     <li className='hover:bg-white hover:text-highBlue'>
-                        <a href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>درباره ی ما</a>
+                        <HashLink smooth to='#about' href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>درباره ی ما</HashLink>
                     </li>
                     <li className='hover:bg-white hover:text-highBlue'>
-                        <a href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>ویژگی ها</a>
+                        <HashLink smooth to='#feature' href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>ویژگی ها</HashLink>
                     </li>
                     <li className='hover:bg-white hover:text-highBlue'>
-                        <a href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>گالری</a>
+                        <HashLink smooth to='#gallery' href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>گالری</HashLink>
                     </li>
                     <li className='hover:bg-white hover:text-highBlue'>
-                        <a href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>قیمت</a>
+                        <HashLink smooth to='#price' href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>قیمت</HashLink>
                     </li>
                     <li className='hover:bg-white hover:text-highBlue'>
-                        <a href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>سوالات پر تکرار</a>
+                        <HashLink smooth to='#question' href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>سوالات پر تکرار</HashLink>
                     </li>
                     <li className='hover:bg-white hover:text-highBlue'>
                         <Link to='/Blog' className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>وبلاگ</Link>
                     </li>
                     <li className='hover:bg-white hover:text-highBlue mb-3.5'>
-                        <a href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>تماس با ما</a>
+                        <HashLink smooth to='#contact' href="#" className='inline-block transition-all  font-medium px-0.5 leading-5 py-2.5'>تماس با ما</HashLink>
                     </li>
                 </ul>
             </div>

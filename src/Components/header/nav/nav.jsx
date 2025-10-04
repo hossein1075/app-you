@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 function Nav() {
     const [scroll, setScroll] = useState(false)
 
@@ -23,25 +24,25 @@ function Nav() {
                         <Link to={'/'} className='inline-block border-b-2 border-transparent border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>خانه</Link>
                     </li>
                     <li>
-                        <a href="#about" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>درباره ی ما</a>
+                        <HashLink smooth to='#about' className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>درباره ی ما</HashLink>
                     </li>
                     <li>
-                        <a href="#feature" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>ویژگی ها</a>
+                        <HashLink smooth to='#feature' className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>ویژگی ها</HashLink>
                     </li>
                     <li>
-                        <a href="#gallery" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>گالری</a>
+                        <HashLink smooth to='#gallery' className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>گالری</HashLink>
                     </li>
                     <li>
-                        <a href="#price" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>قیمت</a>
+                        <HashLink smooth to='#price' className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>قیمت</HashLink>
                     </li>
                     <li>
-                        <a href="#questions" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>سوالات پر تکرار</a>
+                        <HashLink smooth to='#question' className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>سوالات پر تکرار</HashLink>
                     </li>
                     <li>
                         <Link to={"/Blog"} className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>وبلاگ</Link>
                     </li>
                     <li>
-                        <a href="#call" className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>تماس با ما</a>
+                        <HashLink smooth to='#contact' className='inline-block border-b-2 border-transparent hover:border-white transition-all hover:bg-white/70 font-medium px-0.5 leading-5 py-2.5'>تماس با ما</HashLink>
                     </li>
                 </ul>
                 <a href="#" className='inline-block text-white bg-white/30 tracking-[1.5px] py-2.5 px-10 rounded-[50px] font-bold text-sm hover:bg-white hover:text-highBlue'>ثبت نام</a>

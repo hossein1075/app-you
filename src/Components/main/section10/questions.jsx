@@ -16,7 +16,7 @@ function Questions() {
   };
     return (
         <>
-            <section className='max-md:py-15 py-30 bg-indigo-50'>
+            <section id='question' className='max-md:py-15 py-30 bg-indigo-50'>
                 <div className="container  flex flex-col items-center">
                     <div className='text-center'>
                         <FullTitle text={Info[8].text} />

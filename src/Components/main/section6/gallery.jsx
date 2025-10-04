@@ -12,7 +12,7 @@ function Gallery() {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
     return (
         <>
-            <section className='text-white bg-gradient-to-tr from-grandiant-200 to-grandiant-100 max-md:py-15 py-30'>
+            <section id='gallery' className='text-white bg-gradient-to-tr from-grandiant-200 to-grandiant-100 max-md:py-15 py-30'>
                 <div className="container">
                     <div className='grid max-md:grid-cols-1 grid-cols-2 gap-x-10'>
                         <div className='w-full max-md:max-w-100 mx-auto relative'>

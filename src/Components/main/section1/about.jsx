@@ -5,7 +5,7 @@ import Info from '../info'
 function About() {
   return (
     <>
-    <section className='max-lg:py-0 max-xl:py-20 py-30 text-center m-auto'>
+    <section id='about' className='max-lg:py-0 max-xl:py-20 py-30 text-center m-auto'>
      <div className="container">
          <img src="/public/images/about-logo.png" className='m-auto mb-5' alt="about logo" />
         <FullTitle text={Info[0].text}/>
