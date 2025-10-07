@@ -33,6 +33,30 @@
   --text-22: 22px;
   --text-25: 25px;
   --container-halfFull: 50%;
+  --animate-mymove: mymove 1.5s linear infinite;
+
+  @keyframes mymove {
+    25% {
+      -webkit-box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 10px rgba(94, 136, 252, 0.6);
+      box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 10px rgba(94, 136, 252, 0.6);
+    }
+
+    50% {
+      -webkit-box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 20px rgba(94, 136, 252, 0.6);
+      box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 20px rgba(94, 136, 252, 0.6);
+    }
+
+    75% {
+      -webkit-box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 10px rgba(94, 136, 252, 0.6);
+      box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 10px rgba(94, 136, 252, 0.6);
+    }
+
+    100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(94, 136, 252, 0.6), 0 0 0 0 rgba(94, 136, 252, 0.6);
+      box-shadow: 0 0 0 0 rgba(94, 136, 252, 0.6), 0 0 0 0 rgba(94, 136, 252, 0.6);
+    }
+  }
+
 }
 
 @utility container {
@@ -49,6 +73,7 @@
 
 
 }
+
 .flexcenter {
   display: flex;
   justify-content: center;
@@ -109,16 +134,17 @@
 }
 
 .bg-subscribe {
-background-image: url('/images/subscribe-bg.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: scroll;
-background-position: center center;
-  
+  background-image: url('/images/subscribe-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+
 }
+
 .bg-download {
   background-image: url('/images/download-bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }

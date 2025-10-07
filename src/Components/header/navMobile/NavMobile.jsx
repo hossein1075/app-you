@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import { FaBars } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 function NavMobile() {
     const [open, setOpen] = useState(false)
     const [scrolled, setScrolled] = useState(false)
+    const location = useLocation()
 
     useEffect(() => {
         const sizeMenu = () => {
@@ -17,13 +18,16 @@ function NavMobile() {
             setScrolled(window.scrollY > 50)
         }
 
+        scrolledHandler()
+
+
         window.addEventListener('scroll', scrolledHandler)
         window.addEventListener('resize', sizeMenu)
         return () => {
             window.removeEventListener('resize', sizeMenu)
             window.removeEventListener('scroll', scrolledHandler)
         }
-    }, [])
+    }, [location.pathname])
     return (
         <>
             <nav className={`fixed z-50 top-0 right-0 left-0 hidden max-mg:flex py-5 px-3.75 items-center justify-between ${scrolled ? 'bg-gradient-to-r from-grandiant-200 to-grandiant-100' : 'bg-gradient-to-r from-grandiant-200/90 to-grandiant-100/90' }`}>

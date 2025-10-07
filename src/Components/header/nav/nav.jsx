@@ -1,17 +1,20 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 function Nav() {
     const [scroll, setScroll] = useState(false)
+    const location = useLocation()
 
     useEffect(()=> {
         const scrollHandler = ()=> {
             setScroll(window.scrollY > 50)
         }
 
+        scrollHandler()
+
         window.addEventListener('scroll', scrollHandler)
         return ()=> window.removeEventListener('scroll', scrollHandler)
-    }, [])
+    }, [location.pathname])
     return (
         <>
             <nav className={`fixed top-0 right-0 left-0 max-mg:hidden py-5 px-3.75 flex items-center justify-between z-40 ${scroll ? 'bg-gradient-to-r from-grandiant-200 to-grandiant-100': 'bg-inherit'}`}>
