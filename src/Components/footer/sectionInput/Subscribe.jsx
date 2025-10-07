@@ -10,7 +10,7 @@ function Subscribe() {
             <form action="#" className='max-md:flex max-md:flex-col items-center'>
               <div className='border-1 border-solid rounded-full border-blue-500 *:py-3.75 w-full flex justify-between mb-5'>
                 <input type="text" placeholder='ایمیل خود را وارد کنید' className='w-full max-sm:text-xs pr-3.75 outline-0 border-0 placeholder-slate-400 text-blue-500'/>
-                <button type='submit' className='flex items-center max-md:hidden gap-3 h-full rounded-full px-7.5 text-white bg-gradient-to-tr from-grandiant-200 to-grandiant-100'>
+                <button type='submit' className='flex items-center max-md:hidden gap-3 h-full rounded-full cursor-pointer px-7.5 text-white bg-gradient-to-tr from-grandiant-200 to-grandiant-100'>
                   <span className='lnr lnr-location'></span>
                   <span> عضویت</span>
                 </button>

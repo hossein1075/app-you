@@ -12,7 +12,7 @@ export default function Header() {
   <div className="absolute inset-0 bg-gradient-to-tr from-grandiant-200/80 to-grandiant-100/80"></div>
   
   {/* محتوای اصلی */}
-        <div className='container'>
+        <div className='container flex justify-center'>
           <div className='flex gap-5 max-lg:mt-10 mt-20 text-white'>
             <div data-aos="fade-up" className='w-101 h-142 max-lg:hidden z-10'>
               <img src="./public/images/header-mobile.png" className='w-full z-10' alt="app weather" />

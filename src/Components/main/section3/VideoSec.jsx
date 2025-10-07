@@ -11,6 +11,7 @@ function VideoSec() {
         fluid: true,
         autoplay: false,
         poster: "/images/video-image.jpg",
+        
         sources: [
             {
                 src: "/video/film.mp4",
